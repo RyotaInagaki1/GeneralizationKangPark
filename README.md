@@ -1,3 +1,3 @@
 # GeneralizationKangPark
 
-See the PDF ReadMe in the repository for details.
+See Readme.pdf in the repository for details; it is better formatted.
