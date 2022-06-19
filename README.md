@@ -1,5 +1,7 @@
 # GeneralizationKangPark
 
+## Important: See the Readme.pdf file! It is much better formatted!
+
 This repository contains code and data used to elucidate potential next steps to prove Conjecture 1.3 ( $\Delta^{(3,-)}_d(n) \geq 1$).
 
 In other words, this repository contains the code and data referred to in Section 7 of the Inagaki and Tamura 2022 paper.
