@@ -11,11 +11,11 @@ Before you do anything, make sure your pwd is the same directory as is the coeff
 First, compile the C++ file. Type without quotes :\newline"g++ ./coefficients\_d\-3\_oneDash.cc \-o coefficients\_d2."
 
 
-Then Type without quotes: \newline "./coefficients\_d2 NUM\_TERMS d output\_file \textless d \textgreater" where d is a positive integer parameter and NUM\_TERMS is the positive integer number such that the output calculates $Q_{d-3}^{(1, -)}(n)$, $q_{d}^{(1)}(n)$ and $q_{d}^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ for integer $n$ between 1 and NUM\_TERMS inclusive.
+Then Type without quotes: \newline "./coefficients\_d2 NUM\_TERMS d output\_file\_d" where d is a positive integer parameter and NUM\_TERMS is the positive integer number such that the output calculates $Q_{d-3}^{(1, -)}(n)$, $q_{d}^{(1)}(n)$ and $q_{d}^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ for integer $n$ between 1 and NUM\_TERMS inclusive.
 
 To stay organized, let d be the integer value of d you inputted earlier in the line.
 
-## Regarding The output\_file
+## Regarding The output\_file in This Repository
 
 In this repository, given a positive integer $d$, output\_file$d$ has the values of $n$ in the first column,
   $Q_{d-3}^{(1, -)}(n)$ in the second column, $q_d^{(1)}(n)$ in the third column, and $q^{(1)}_d(n) - Q_{d-3}^{(1, -)}(n)$ in the fourth column. $n$ ranges from 1 to 100,000 inclusive. Open these files through your text editor.
