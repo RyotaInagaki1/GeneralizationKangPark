@@ -20,12 +20,12 @@ To stay organized, let d be the integer value of d you inputted earlier in the l
 ## Regarding The output\_file
 
 In this repository, given a positive integer $d$, output\_file$d$ has the values of 
-  $Q_{d-3}^{(1, -)}(n)$, $q^{(1)}_{d}(n)$,and  $\Delta^{(3,-)}_{d}(n)$
+  $Q_{d-3}^{(1, -)}(n)$, $q^{(1)}_d(n)$,and  $\Delta^{(3,-)}_d(n)$
   for $n$ from 1 to 100,000 inclusive. Open this through your text editor.
   
   Note from the output\_file 's  for d
  in between 1 and 9, it seems as if 
-  $\Delta^{(3,-)}_{d}(n) < 0$ and the $\Delta^{(3,-)}_{d}(n)$ decreases rapidly as $n$ gets large.
+  $\Delta^{(3,-)}_d(n) < 0$ and the $\Delta^{(3,-)}_d(n)$ decreases rapidly as $n$ gets large.
 
   Note that for $d$ at least 10,
-  it seems as if $\Delta^{(3,-)}_{d}(n)\geq 0$ and the $\Delta^{(3,-)}_{d}(n)$ increases as $n$ gets large.
+  it seems as if $\Delta^{(3,-)}_d(n) \geq 0$ and the $\Delta^{(3,-)}_d(n)$ increases as $n$ gets large.
