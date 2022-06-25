@@ -19,7 +19,7 @@ To stay organized, let d be the integer value of d you inputted earlier in the l
 
 ## Regarding The output\_file
 
-In this repository, given a positive integer d, output\_file\textless d \textgreater has the values of 
+In this repository, given a positive integer $d$, output\_file$d$ has the values of 
   $Q_{d-3}^{(1, -)}(n)$,
   $q^{(1)}_{d}(n)$,
   and 
