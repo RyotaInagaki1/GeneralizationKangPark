@@ -2,9 +2,7 @@
 
 ## Important: See the Readme.pdf file! It is much better formatted!
 
-This repository contains code and data used to elucidate potential next steps to prove Conjecture 1.3 ( $\Delta^{(3,-)}_d(n) \geq 1$).
-
-This repository contains the code and data referred to in Section 7 of the Inagaki and Tamura 2022 paper.
+This repository contains code and data used to elucidate potential next steps to prove remaining cases of Conjecture 1.3 $\Delta^{(3,-)}_d(n) \geq 1$ by using values of d where $q_d^{(1)}(m) \geq Q_{d-3}^{(1, -)}(m)$. This repository contains the code and data referred to in Section 7 of the Inagaki and Tamura 2022 paper.
 
 ## How to Use the C++ code (.cc file) in Linux Terminal
 
@@ -19,9 +17,8 @@ To stay organized, let d be the integer value of d you inputted earlier in the l
 
 ## Regarding The output\_file
 
-In this repository, given a positive integer $d$, output\_file$d$ has the values of 
-  $Q_{d-3}^{(1, -)}(n)$, $q^{(1)}_d(n)$,and  $\Delta^{(3,-)}_d(n)$
-  for $n$ from 1 to 100,000 inclusive. Open this through your text editor.
+In this repository, given a positive integer $d$, output\_file$d$ has the values of $n$ in the first column,
+  $Q_{d-3}^{(1, -)}(n)$ in the second column, $q^{(1)}_d(n)$ in the third column,and $q^{(1)}_d(n) - Q_{d-3}^{(1, -)}(n)$ in the fourth column. $n$ ranges from 1 to 100,000 inclusive. Open these files through your text editor.
   
   Note from the output\_file 's  for d
  in between 1 and 9, it seems as if 
@@ -29,3 +26,7 @@ In this repository, given a positive integer $d$, output\_file$d$ has the values
 
   Note that for $d$ at least 10,
   it seems as if $\Delta^{(3,-)}_d(n) \geq 0$ and the $\Delta^{(3,-)}_d(n)$ increases as $n$ gets large.
+  
+ ## Acknowledgements
+  
+  We would like to thank Professsor Robert J. Lemke Oliver for providing original C++ code calculating the $q_d^{(1)}(m)$ and $ Q_{d}^{(1)}(m)$ values, which we modified to calculate $q_d^{(1)}(m)$ and $ Q_{d-3}^{(1, -)}(m)$.
