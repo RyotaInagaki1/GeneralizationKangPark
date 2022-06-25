@@ -18,7 +18,7 @@ To stay organized, let d be the integer value of d you inputted earlier in the l
 ## Regarding The output\_file in This Repository
 
 In this repository, given a positive integer $d$, output\_file$d$ has the values of $n$ in the first column,
-  $Q_{d-3}^{(1, -)}(n)$ in the second column, $q_d^{(1)}(n)$ in the third column, and $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n) $ in the fourth column. The examined input values of $n$ range from 1 to 100,000 inclusive. Open these files through your text editor.
+  $Q_{d-3}^{(1, -)}(n)$ in the second column, $q_d^{(1)}(n)$ in the third column, and $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ in the fourth column. The examined input values of $n$ range from 1 to 100,000 inclusive. Open these files through your text editor.
   
   Note from the output\_file 's  for d
  in between 1 and 9, it seems as if 
