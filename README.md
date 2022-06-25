@@ -20,12 +20,13 @@ To stay organized, let d be the integer value of d you inputted earlier in the l
 In this repository, given a positive integer $d$, output\_file$d$ has the values of $n$ in the first column,
   $Q_{d-3}^{(1, -)}(n)$ in the second column, $q_d^{(1)}(n)$ in the third column, and $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ in the fourth column. The examined input values of $n$ range from 1 to 100,000 inclusive. Open these files through your text editor.
   
-  Note from the output\_file 's  for d
- in between 1 and 9, it seems as if $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ is negative and decreases rapidly as $n$ gets large.
+  Given the data from the output\_file 's, for d
+ in between 2 and 9 inclusive, it seems that $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ is negative and decreases rapidly as $n$ gets large.
 
   Note that for $d$ at least 10,
-  it seems as if $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ is nonnegative and increases as $n$ gets large.
+  it seems that $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ is nonnegative and increases as $n$ gets large.
   
  ## Acknowledgements
   
-  We would like to thank Professsor Robert J. Lemke Oliver for providing original C++ code calculating values of $q_d^{(1)}(m)$ and $Q_{d}^{(1)}(m)$, which we modified to the code in this repository. The original comments in the code remain modulo some revisions made before the beginning of the section calculation $ Q_{d-3}^{(1, -)}(m)$. We have received explicit permission from the original author of the code to put it onto GitHub.
+  We would like to thank Professsor Robert J. Lemke Oliver for providing original C++ code calculating values of $q_d^{(1)}(m)$ and $Q_{d}^{(1)}(m)$, 
+  which we modified to the code in this repository. The comments in the code are the same as in the original except some additional comments made before the beginning of the section calculation $ Q_{d-3}^{(1, -)}(m)$. We have received explicit permission from the original author of the code to put it onto GitHub.
