@@ -13,7 +13,7 @@ First, compile the C++ file. Type without quotes :\newline"g++ ./coefficients\_d
 
 Then type without quotes: \newline "./coefficients\_d2 NUM\_TERMS $k$ output\_file$k$" where $k$ is a positive integer parameter and NUM\_TERMS is the positive integer number such that the output calculates $Q_{k-3}^{(1, -)}(n)$, $q_{k}^{(1)}(n)$ and $q_{k}^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ for integer $n$ between 1 and NUM\_TERMS inclusive.
 
-Note that this code's output onto the Terminal will still use the variable d when it tells you that $q_{d}^{(1)}(n)$ and $Q_{d-3}^{(1, -)}(n)$; we are actually calculating $q_{k}^{(1)}(n)$ and $Q_{k-3}^{(1, -)}(n)$. We choose to maintain this Terminal output in order to match the comments and avoid confusion with the variable k in the C++ file, which is used for indexing of a for-loop and in other comments in the code for other meanings.
+Note that this code's output onto the Terminal will still use the variable d when it tells you that $q_{d}^{(1)}(n)$ and $Q_{d-3}^{(1, -)}(n)$; we are actually calculating $q_{k}^{(1)}(n)$ and $Q_{k-3}^{(1, -)}(n)$. We choose to maintain this Terminal output in order to match the comments and avoid confusion with the variable k as used in the C++ file, which is used for indexing of a for-loop and in other comments in the code for other meanings.
 ## Regarding The output\_file in This Repository
 
 In this repository, for positive integer $k$, output\_file$k$ has the values of $n$ in the first column,
