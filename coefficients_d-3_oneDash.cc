@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <fstream>
 #include <math.h>
@@ -91,7 +92,7 @@ int main(int argc, char** argv)
 
 	cout << "Done!" << endl << "Computing Q_{d-3}^{(1, -)}(n): " << flush;
 
-	/* Idea to compute Q_{d-3}^{(1, -)}(n):
+	/* (RJLO 2021; modified 2022 by Inagaki and Tamura): Idea to compute Q_{d-3}^{(1, -)}(n):
 	  *: Decompose Q_{d-3}^{(1, -)}(n) based on the number of parts; call the relevant function Q_{d-3,k}.  
 	  *: Either 1 is a part or not, in which case each part has to have some size.  That gives you a recurrence relation of the type Q_{d-3,k}(n) = Q_{d-3,k-1}(n-1) + Q_{d-3,k}(n - k*size), where size is the right thing to subtract off.  
 	  *: This is still memory efficient -- you only need to know the value at k and k-1 --so the col parameter comes back, but it's not super time efficient, since k now has to run up to something like N.  
@@ -101,7 +102,7 @@ int main(int argc, char** argv)
 	*/
 	/* Inagaki and Tamura 2022: Note that on Line 131 of this file, we set  kk2=((k+1)/2)*(d+3)+((k+1)%2)*(d+2)+(1-((k+1)%2)) as opposed to kk2=((k)/2)*(d+3)+((k)%2)*(d+2)+(1-((k)%2)) since
 	 (d-3 - 1) cannot be a part of any partition counted by function Q_{d-3}^{(1, -)}; this is due to the single dash.
-	 Also, note that we add the line setting d = d-3 due to the d-3 in the subscript of the counting function of interest, Q_{d-3}^{(1, -)}(n)*/
+	 Also, note that we add the line setting d = d-3 (Line 106) due to the d-3 in the subscript of the counting function of interest, Q_{d-3}^{(1, -)}(n)*/
 	d = d - 3;
 	long max_kQ=2*NUM_TERMS/(d+3)+2;
 	long double** Q_k=new long double*[NUM_TERMS];
@@ -197,3 +198,4 @@ void q_print(double* q1)
 			cout << q1[i] << " q^" << i << " + ";
 	cout << "O(q^" << NUM_TERMS << ")" << endl;
 }
+
