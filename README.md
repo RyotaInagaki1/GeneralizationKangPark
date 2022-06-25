@@ -6,7 +6,7 @@ This repository contains code and data used to elucidate potential next steps to
 
 In other words, this repository contains the code and data referred to in Section 7 of the Inagaki and Tamura 2022 paper.
 
-\subsection{How to Use the C++ code (.cc file) in Linux Terminal}
+## How to Use the C++ code (.cc file) in Linux Terminal}
 
 Before you do anything, make sure your pwd is the same directory as is the coefficients\_d\-3\_oneDash.cc
 
