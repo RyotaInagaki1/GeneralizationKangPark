@@ -21,7 +21,7 @@ In this repository, for positive integer $k$, output\_file$k$ has the values of 
   $Q_{k-3}^{(1, -)}(n)$ in the second column, $q_k^{(1)}(n)$ in the third column, and $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ in the fourth column. The examined input values of $n$ range from 1 to 100,000 inclusive. These are output files calculated from running in the Terminal ./coefficients\_d2 NUM\_TERMS $k$ output\_file$k$ for $k = 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 22, 100$ after compiling coefficients\_d\-3\_oneDash.cc.  Open these files through your text editor.
   
   Given the data from the output\_file 's, for k
- in between 3 and 9 inclusive, it seems that $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n) \to -\infty$ i as q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ decreases very rapidly for large $n$.
+ in between 3 and 9 inclusive, it seems that $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n) \to -\infty$ i as $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ decreases very rapidly for large $n$.
 
   Note that for $k \geq 10$,
   it seems that for large input values of $n$, $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n) \to \infty$ as $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ increases to very large positive quantitie.
