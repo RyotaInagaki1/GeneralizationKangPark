@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 	// q_d^{(1)}(m), Q_{d-3}^{(1, -)}(m), q_d^{(1)}(m) -  Q_{d-3}^{(1, -)}(m).
 	// For notation of partition functions, see the paper in the repository.
 	// (IMPORTANT NOTE:) The variable d used in this code stands for the variable k as used in Section 7 of the attached paper.
-	// We avoid using k in comments in order to avoid confusion with the variable k used in the C++ code to index a for loop and other comments for other purposes.
+	// We avoid using k in comments in order to avoid confusion with the variable k used in the C++ code to index a for loop and other comments blurbs in this file with different meaning.
 
 	if (argc != 3 && argc!=4)
 	{
