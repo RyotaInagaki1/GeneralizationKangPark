@@ -91,7 +91,7 @@ int main(int argc, char** argv)
 
 	cout << "Done!" << endl << "Computing Q_{d-3}^{(1, -)}(n): " << flush;
 
-	/* (2021): Idea to compute Q_{d-3}^{(1, -)}(n):
+	/* Idea to compute Q_{d-3}^{(1, -)}(n):
 	  *: Decompose Q_{d-3}^{(1, -)}(n) based on the number of parts; call the relevant function Q_{d-3,k}.  
 	  *: Either 1 is a part or not, in which case each part has to have some size.  That gives you a recurrence relation of the type Q_{d-3,k}(n) = Q_{d-3,k-1}(n-1) + Q_{d-3,k}(n - k*size), where size is the right thing to subtract off.  
 	  *: This is still memory efficient -- you only need to know the value at k and k-1 --so the col parameter comes back, but it's not super time efficient, since k now has to run up to something like N.  
