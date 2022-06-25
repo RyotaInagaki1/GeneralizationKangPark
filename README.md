@@ -6,7 +6,7 @@ This repository contains code and data used to elucidate potential next steps to
 
 In other words, this repository contains the code and data referred to in Section 7 of the Inagaki and Tamura 2022 paper.
 
-## How to Use the C++ code (.cc file) in Linux Terminal}
+## How to Use the C++ code (.cc file) in Linux Terminal
 
 Before you do anything, make sure your pwd is the same directory as is the coefficients\_d\-3\_oneDash.cc
 
@@ -15,8 +15,7 @@ First, compile the C++ file. Type without quotes :\newline"g++ ./coefficients\_d
 
 Then Type without quotes: \newline "./coefficients\_d2 NUM\_TERMS d output\_file \textless d \textgreater" where d is a positive integer parameter and NUM\_TERMS is the positive integer number of terms you want to compute $Q_{d-3}^{(1, -)}(n)$, $q_{d}^{(1)}(n)$ and $ \Delta^{(3,-)}_d(n)$
 
-To stay organized, let \textless d 
-\textgreater be the value of d you inputted earlier in the line.
+To stay organized, let d be the integer value of d you inputted earlier in the line.
 
 ## Regarding The output\_file
 
