@@ -2,7 +2,7 @@
 
 **Important: Please Read the attached paper by Inagaki and Tamura (2206.04842.pdf), especially Sections 1, 2, and 7,  in order to better understand notation and purpose of the code.**
 
-This repository contains code and data used to elucidate potential next steps to prove remaining cases of Conjecture 1.3, which claims$\Delta_{d}^{(3, -)}(n) \geq 0$ for all integers n and g, by using values of d where $q_d^{(1)}(m) \geq Q_{d-3}^{(1, -)}(m)$. This repository contains the code and data referred to in Section 7 of the Inagaki and Tamura 2022 paper.
+This repository contains code and data used to elucidate potential next steps to prove remaining cases of Conjecture 1.3, which claims$\Delta_{d}^{(3, -)}(n) \geq 0$ for all integers n and g, by using values of d where $q_d^{(1)}(m) \geq Q_{d-3}^{(1, -)}(m)$. This repository contains the computational data referred to in Section 7 of the Inagaki and Tamura 2022 paper. This data is contained in files with prefix output\_file.
 
 ## How to Use the C++ code (.cc file) in Linux Terminal
 
@@ -18,10 +18,10 @@ To stay organized, let d be the integer value of d you inputted earlier in the l
 ## Regarding The output\_file in This Repository
 
 In this repository, given a positive integer $d$, output\_file$d$ has the values of $n$ in the first column,
-  $Q_{d-3}^{(1, -)}(n)$ in the second column, $q_d^{(1)}(n)$ in the third column, and $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ in the fourth column. The examined input values of $n$ range from 1 to 100,000 inclusive. Open these files through your text editor.
+  $Q_{d-3}^{(1, -)}(n)$ in the second column, $q_d^{(1)}(n)$ in the third column, and $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ in the fourth column. The examined input values of $n$ range from 1 to 100,000 inclusive. These are output files calculated from running in the Terminal ./coefficients\_d2 NUM\_TERMS d output\_file $d$ for $d = 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 22, 100$ after compiling coefficients\_d\-3\_oneDash.cc.  Open these files through your text editor.
   
   Given the data from the output\_file 's, for d
- in between 2 and 9 inclusive, it seems that $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ is negative and decreases rapidly as $n$ gets large.
+ in between 3 and 9 inclusive, it seems that $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ is negative and decreases rapidly as $n$ gets large.
 
   Note that for $d$ at least 10,
   it seems that $q_d^{(1)}(n) - Q_{d-3}^{(1, -)}(n)$ is nonnegative and increases as $n$ gets large.
