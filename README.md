@@ -1,6 +1,6 @@
 # GeneralizationKangPark
 
-**Important: Please Read the attached paper by Inagaki and Tamura (2Kang_and_Park_Generalization_Draft.pdf in this repository), especially Sections 1, 2, and 7,  in order to better understand notation and purpose of the code.**
+**Important: Please read the attached paper by Inagaki and Tamura (Kang_and_Park_Generalization_Draft.pdf in this repository), especially Sections 1, 2, and 7,  in order to better understand notation and purpose of the code.**
 
 This repository contains code and data used to elucidate potential next steps to prove remaining cases of Conjecture 1.3, which claims$\Delta_{d}^{(3, -)}(n) \geq 0$ for all integers n and d, by using integer values of $k$ where $q_k^{(1)}(m) \geq Q_{k-3}^{(1, -)}(m)$. This repository contains the computational data referred to in Section 7 of the Inagaki and Tamura 2022 paper. This data is contained in files with prefix output\_file.
 
