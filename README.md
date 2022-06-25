@@ -21,12 +21,12 @@ In this repository, for positive integer $k$, output\_file$k$ has the values of 
   $Q_{k-3}^{(1, -)}(n)$ in the second column, $q_k^{(1)}(n)$ in the third column, and $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ in the fourth column. The examined input values of $n$ range from 1 to 100,000 inclusive. These are output files calculated from running in the Terminal ./coefficients\_d2 NUM\_TERMS $k$ output\_file$k$ for $k = 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 22, 100$ after compiling coefficients\_d\-3\_oneDash.cc.  Open these files through your text editor.
   
   Given the data from the output\_file 's, for k
- in between 3 and 9 inclusive, it seems that $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ is negative and decreases very rapidly as $n$ gets large.
+ in between 3 and 9 inclusive, it seems that $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n) \to -\infty$ i as q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ decreases very rapidly for large $n$.
 
-  Note that for $k$ at least 10,
-  it seems that $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ is nonnegative and increases to very very large quantities as $n$ gets large.
+  Note that for $k \geq 10$,
+  it seems that for large input values of $n$, $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n) \to \infty$ as $q_k^{(1)}(n) - Q_{k-3}^{(1, -)}(n)$ increases to very large positive quantitie.
   
  ## Acknowledgements
   
-  We would like to thank Professsor Robert J. Lemke Oliver for providing original C++ code calculating values of $q_d^{(1)}(m)$ and $Q_{d}^{(1)}(m)$, 
+  We would like to thank Professsor Robert J. Lemke Oliver for providing original C++ code calculating values of partition functions $q_k^{(1)}(m)$ and $Q_{k}^{(1)}(m)$, 
   which we modified to the code in this repository. The comments in the code are the same as in the original except some additional comments made before the beginning of the section calculation $ Q_{k-3}^{(1, -)}(m)$. We have received explicit permission from the original author of the code to put it onto GitHub.
