@@ -18,7 +18,8 @@ Then Type without quotes: \newline "./coefficients\_d2 NUM\_TERMS d output\_file
 To stay organized, let \textless d 
 \textgreater be the value of d you inputted earlier in the line.
 
-\section{The output\_file}
+## Regarding The output\_file
+
 In this repository, given a positive integer d, output\_file\textless d \textgreater has the values of 
   $Q_{d-3}^{(1, -)}(n)$,
   $q^{(1)}_{d}(n)$,
