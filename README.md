@@ -1,4 +1,4 @@
-# GeneralizationKangPark
+# Generalization_KangPark_Inagaki_Tamura
 
 **Important: Please read the attached paper by Inagaki and Tamura (Kang_and_Park_Generalization_Draft.pdf in this repository), especially Sections 1, 2, and 7,  in order to better understand notation and purpose of the code.**
 
