@@ -18,7 +18,7 @@ int main(int argc, char** argv)
 	// All such comments are indicated by a (2021) tag and should be taken with a grain of salt
 	// Inagaki and Tamura 2022: We have modified this code from Robert J. Lemke Oliver to calculate
 	// q_d^{(1)}(m), Q_{d-3}^{(1, -)}(m), q_d^{(1)}(m) -  Q_{d-3}^{(1, -)}(m).
-	// For notation of partition functions, see attached paper.
+	// For notation of partition functions, see the paper in the repository. IMPORTANT NOTE: The variable d used in this code stands for the variable k used in Section 7 of the attached paper
 
 	if (argc != 3 && argc!=4)
 	{
