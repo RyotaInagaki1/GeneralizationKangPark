@@ -100,7 +100,7 @@ int main(int argc, char** argv)
 	  * : There's some extra stuff below to account for rounding errors.  The way this is handled is to produce an upper bound on Q_d, since that's what's relevant for our purposes.
 	*/
 	/* Inagaki and Tamura 2022: Note that on Line 131 of this file, we set  kk2=((k+1)/2)*(d+3)+((k+1)%2)*(d+2)+(1-((k+1)%2)) as opposed to kk2=((k)/2)*(d+3)+((k)%2)*(d+2)+(1-((k)%2)) since
-	 (d-3 - 1) cannot be a part of any partition counted by function Q_{d-3}^{(1, -)}; this is due to the single dash.
+	 (d - 1) cannot be a part of any partition counted by function Q_{d-3}^{(1, -)}; this is due to the single dash.
 	 Also, note that we add the line setting d = d-3 (Line 106) due to the d-3 in the subscript of the counting function of interest, Q_{d-3}^{(1, -)}(n)*/
 	d = d - 3;
 	long max_kQ=2*NUM_TERMS/(d+3)+2;
