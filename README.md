@@ -29,4 +29,4 @@ In this repository, for positive integer $k$, output\_file$k$ has the values of 
  ## Acknowledgements
   
   We would like to thank Professsor Robert J. Lemke Oliver for providing original C++ code calculating values of partition functions $q_k^{(1)}(m)$ and $Q_{k}^{(1)}(m)$, 
-  which we modified to become the code in this repository. The comments in the code are the same as in the original except some additional comments made before the beginning of the section calculation $ Q_{k-3}^{(1, -)}(m)$. We have received explicit permission from the original author of the code to put it onto GitHub.
+  which we modified to become the code in this repository. The comments in the code are the same as in the original except some additional comments made before the beginning of the section calculation $Q_{k-3}^{(1, -)}(m)$. We have received explicit permission from the original author of the code to put it onto GitHub.
